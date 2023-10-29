@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clr {
+    clear :both;
+}
+.nav{
+    
+    width:90% ;
+    margin :auto;
+    padding: 30px 15px 0px 15px;
+    position :fixed;
+}
+.nav img{
+    float:left;
+    width:15% ;
+    padding: 0px 15px 0px 15px ;
+}
+.nav ul {
+    float:right;
+    list-style: none;
+}
+.nav ul li {
+    display:inline-block;
+    padding: 30px 15px 0px 15px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#home .caption{
+    /* height: 300px; */
+    /* background-color:blue; */
+    text-align: center;
+    padding-top: 190px;
+    color:white;
+
+}
+#home .caption h1{
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+}
+#home .caption p{
+    margin: 25px 0px;
+    font-size: 22px;
+    font-family: 'Alegreya', serif;
+
+}
+#home .caption .btn1 , #home .caption .btn2{
+    padding: 18px 30px;
+    font-size: 16px;
+    color:white ;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+#home .caption .btn1 {
+ background-color:#8E7754 ;
+ border:none;
+ 
+}
+#home .caption .btn2{
+background-color: transparent;
+border:white 1px solid;
+}
+#about{
+   
+   
+    padding-top: 90px ;
+    width:90%;
+    margin: auto;
+}
+#about .about-img {
+    
+    display:inline-block;
+    width:40%
+}
+#about .about-info{
+    
+    display:inline-block;
+    width:55% ;
+    vertical-align: top;
+
+   
+}
+#about .about-img img{
+    width:100% ;
+}
+#about .about-info h2 {
+    padding: 50px 80px 20px 80px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+}
+#about .about-info p {
+    padding: 10px 0px 10px 80px ;
+    font-size:17px ;
+    /* color:#686868 ; */
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+#about .about-info .about-info-1img{
+    width:5% ;
+    display: inline-block;
+    vertical-align: middle;
+}
+#about .about-info .about-info-1img img {
+    padding: 5px 0px 0px 80px  ;
+    width:100%;
+    
+    
+}
+#about .about-info .about-info-1p{
+    display: inline-block;
+    width:90%;
+    vertical-align: middle;
+    /* padding-bottom: 60px; */
+
+}
+#about .about-info .about-info-2img ,#about .about-info .about-info-3img ,#about .about-info .about-info-4img{
+    width:5% ;
+    display: inline-block;
+    vertical-align: middle;
+}
+#about .about-info .about-info-2img img , #about .about-info .about-info-3img img ,#about .about-info .about-info-4img img {
+    padding: 0px 0px 0px 80px  ;
+    width:100%;
+    
+}
+#about .about-info .about-info-2p , #about .about-info .about-info-3p ,#about .about-info .about-info-4p{
+    display: inline-block;
+    width:90%;
+    vertical-align: middle;
+    /* padding-bottom: 60px; */
+}
+
+
+
+#offer{
+    
+    padding:80px 0px;
+    
+}
+#offer .container {
+    background-color:#F8F8F8;
+    width:90%;
+    margin:auto;
+    padding:90px 67px;
+
+}
+#offer .container-p{
+    
+    display:inline-block;
+    width:50% ;
+    vertical-align: middle;
+    text-align: left;
+}
+#offer .container-img{
+    
+    display: inline-block;
+    width:40% ;
+    vertical-align: middle;
+    padding:0px 50px;
+    
+}
+#offer .container-img img {
+    width:120% ;
+    
+   
+}
+#offer .container-p h2{
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    padding: 50px 0px 20px 0px;
+}
+#offer .container-p p{
+    padding: 10px 0px 10px 0px ;
+    font-size:17px ;
+    /* color:#686868 ; */
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+    /* text-align: left; */
+}
+
+#gallery .gallery-ph {
+text-align: center;
+}
+#gallery .gallery-container {
+    
+    width:95% ;
+    margin:auto;
+    text-align: center;
+    padding: 20px 0px 50px 50px;
+}
+
+#gallery .g-test1 , #gallery .g-test2 ,#gallery .g-test3{
+    float:left;
+    width:32%;
+    padding: 50px 0px;
+
+}
+#gallery .gallery-container img{
+    width:95%
+}
+#gallery h2{
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    padding: 10px 0px 10px 0px;
+}
+#gallery p{
+    padding: 10px 0px 0px 0px ;
+    font-size:17px ;
+    /* color:#686868 ; */
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#gallery h3{
+    font-size:22px;
+    font-family: 'Alegreya', serif;
+    padding: 30px 0px 10px 0px;
+}
+ #blog {
+   
+    padding:80px 0px 0px 0px;
+ }
+ #blog .blog-content{
+    background-color:#F8F8F8;
+    width:90%;
+    margin:auto;
+    padding:90px 67px;
+ }
+ #blog .blog-info{
+    
+    float:left;
+    width:50%
+ }
+ #blog .blog-map {
+    
+    float:right;
+    width:40%;
+    padding:0px 50px;
+ }
+ #blog .blog-map iframe{
+    width:110%
+ }
+ #blog .blog-info ul li{
+    list-style: none;
+ }
+
+ #blog .blog-info img{
+    width:5% ;
+    display:inline-block;
+    vertical-align: middle;
+ }
+ #blog .blog-info p{
+    
+    display:inline-block;
+    vertical-align: middle;
+ }
+ #blog .blog-info h2{
+    font-size:32px;
+    font-family: 'Alegreya', serif;
+    padding: 50px 0px 20px 0px;
+
+ }
+ #blog .blog-info p{
+    padding: 10px 0px 10px 0px ;
+    font-size:17px ;
+    /* color:#686868 ; */
+    line-height: 1.7;
+    font-family: 'Alegreya Sans', sans-serif;
+
+ }
+
+#contact{
+    background-color: #403D38;
+    padding: 50px 40px;
+
+   
+   
+} 
+#contact .contact-about{
+    
+    float:left;
+    width: 22%;
+} 
+#contact .contact-special{
+    
+    float:left;
+    width: 22%;
+}
+#contact .contact-hours{
+    
+    float:left;
+    width: 22%;
+}
+#contact .contact-details{
+    
+    float:left;
+    width: 22%;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+    /* opacity:50%; */
+}
+#contact .contact-details img{
+    width:10% ;
+    display:inline-block;
+    vertical-align: middle;
+
+}
+#contact .contact-details p,#contact .contact-details a{
+    display:inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    /* font-weight: bold;  */
+}
+#contact .contact-details ul li{
+    list-style: none;
+ }
+ #contact .contact-about , #contact .contact-special , #contact .contact-hours ,#contact .contact-details{
+    margin: 15px 15px;
+
+ }
+ #contact  h4{
+    font-size:18px;
+    font-family: 'Alegreya', serif;
+    padding: 20px 0px ;
+    color:white;
+
+ }
+ #contact p ,#contact a{
+    color:RGB(150, 150, 150);
+    padding: 10px 0px 10px 0px ;
+    font-size:16px ;
+    /* color:#686868 ; */
+    line-height: 1.4;
+    font-family: 'Alegreya Sans', sans-serif;
+ }
+ hr{
+    opacity: 10%;
+ }
+ 
+ .social{
+    padding: 60px;
+    background-color: #353330;
+    text-align: center;
+ }
+ .social img{
+    padding: 30px;
+ }
+.social .imagess img{
+    width:4% ;
+    padding:20px 0px;
+}
+.social p{
+    font-size:15px;
+    color:RGB(119, 119, 119);
+    font-family: 'Alegreya Sans', sans-serif;
+}
